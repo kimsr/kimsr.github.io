@@ -1,6 +1,163 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>my page</title>
+  <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+  <title>KSR's page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: #E6E2CD; 
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #F5F5F0;
+      color: #003300;
+  }
+  .bg-3 { 
+      background-color: #E0DCDC; 
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #BAB5B3; 
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  </style>
 </head>
-<body>Hello ! World!</body>
+<body>
+
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">KSR's page</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">WHO</a></li>
+        <li><a href="#">Habits</a></li>
+        <li><a href="#">Cats</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Who Am I?</h3>
+  <img src="http://blogfiles.naver.net/20160413_83/equinox1026_1460525043352x3elM_PNG/%B1%E8%BD%C2%B7%C4.png" class="img-responsive img-circle margin" style="display:inline" alt="김승렬" width="350" height="350">
+  <ul>
+    <li>1993 Birth in Seoul</li>
+    <li>2000 Entrance into Guwon-elementary school</li>
+    <li>2004 Transfer to Donam-elementary school in Jeju</li>
+    <li>2006 Graduate donam-elementary school, Entrance into Jeju East middle school</li>
+    <li>2009 Graduate Jeju East middle school, Entrance into Dea-ki High school</li>
+    <li>2010 Transfer to Seuryeng high school in Susan</li>
+    <li>2012 Graduate Seureng high school, Entrance Gumgang univercity</li>
+  </ul>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">Habits</h3>
+  <div class="row">
+    <div class="col-sm-4">
+      <h4>Game<h4>
+      <img src="https://cdn.mirror.wiki/https://attachment.namu.wiki/uploadfile__%EB%8D%98%ED%8C%8C%EB%A1%9C%EA%B3%A0.png" style="width:50%" alt="Image" align="middle">
+    </div>
+    <div class="col-sm-4"> 
+      <h4>Reading</h4>
+     
+      <img src="http://cfile6.uf.tistory.com/image/230FDC34545EE816323A37" class="img-responsive margin" style="width:40%" alt="Image" align="middle">
+    </div>
+    <div class="col-sm-4"> 
+      <h4>Play with cats</h4>
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/ZJuu0yBQU5o" frameborder="0" allowfullscreen align="middle"></iframe>
+    </div>
+  </div>
+</div>
+
+  
+  </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">My cats</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <h4>Godeung<h4>
+      <p>The name means mackerel(because he looks like a mackerel.)</p>
+      <img src="http://postfiles16.naver.net/20160413_239/equinox1026_1460531796258A1adr_PNG/256x3104.png?type=w2" class="img-responsive margin" style="width:50%" alt="Image" align="middle">
+    </div>
+    <div class="col-sm-4"> 
+      <h4>Nat</h4>
+      <p>Mother of my cats, the name means 'day'</p>
+      <img src="http://postfiles11.naver.net/20160413_122/equinox1026_1460531795433Y6tVk_PNG/256x310_3.png?type=w2" class="img-responsive margin" style="width:50%" alt="Image" >
+    </div>
+    <div class="col-sm-4"> 
+      <h4>Bbin-sun</h4>
+      <p>She has a pot in her head, and it looks like hair pin</p>
+      <img src="http://postfiles11.naver.net/20160413_90/equinox1026_1460531795218aDvTF_PNG/256x310_2.png?type=w2" style="width:50%" alt="Image" >
+    </div>
+  </div>
+</div>
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-4">
+      <h4>Sam-sun<h4>
+      <p>She has three pots in her head.</p>
+      <img src="http://postfiles11.naver.net/20160413_282/equinox1026_14605317956361ySIB_PNG/256x310_5.png?type=w2" class="img-responsive margin" style="width:50%" alt="Image" \>
+    </div>
+    <div class="col-sm-4"> 
+      <h4>Bam</h4>
+      <p>Father of my cats, the name means 'night'</p>
+      <img src="http://postfiles6.naver.net/20160413_117/equinox1026_1460531795857BxSc0_PNG/256x310_6.png?type=w2" class="img-responsive margin" style="width:50%" alt="Image" >
+    </div>
+    <div class="col-sm-4"> 
+      <h4>Gom</h4>
+      <p>Yes, the name means bear.</p>
+      <img src="http://postfiles15.naver.net/20160413_46/equinox1026_1460531795985kfuX4_PNG/256x310.png?type=w2" class="img-responsive margin" style="width:50%" alt="Image" >
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>If you want to know more about me, visit <a href="http://blog.naver.com/equinox1026">S.R Kim's blog</a></p> 
+</footer>
+
+</body>
 </html>
